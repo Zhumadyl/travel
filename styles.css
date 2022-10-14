@@ -1,0 +1,474 @@
+body{
+    
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    height: 10vh;
+
+}
+
+.center{
+    display: flex;
+    justify-content: space-evenly;
+    width: 433px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.container1{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 100px;
+    padding-left: 135px;
+    padding-bottom: 40px;
+    background-image: url(./hero-banner\ 2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container1 > button{
+    width: 20%;
+    font-size: 18px;
+}
+ button{
+    width: 150px;
+    height: 40px;
+    color:white;
+    border: 0px;
+    background-color: #FF715B;
+}
+
+.container1 > h1{
+    font-size: 60px;
+    width: 504px;
+
+}
+
+
+.container2{
+    margin-left: 142px;
+    width: 705px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 130px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+
+   
+}
+
+.container2 h1{
+    font-size: 16px;
+    color: #A79997;
+}
+
+.container2 a{
+    color: #FF715B;
+}
+
+
+.containerbr{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.clocks {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.clock  {
+    background-color: #f8f8f8;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+
+.clock img{
+    width: 80px;
+    height: 80px;
+}
+.clock h1{
+    width: 150px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.clock p{
+    font-size: 16px;
+    width: 200px;
+}
+
+
+
+.clocks3{
+    display: flex;
+    width: 600px;
+}
+
+.clock3 h1,p, button{
+    width: 250px;
+    height:70px ;
+}
+.clock3 img{
+    width: 200px;
+    height: 240px;
+    margin-left: 20px;
+
+}
+
+.clock3 button{
+    width: 140px;
+    height: 40px;
+}
+
+.advantages{
+    display: flex;
+    align-items: center;
+}
+
+#ahror{
+    position: relative;
+    bottom: 50px;
+    width: 40%;
+}
+
+#offer{
+    width:400px;
+    position: relative;
+    right: 100px;
+}
+#img{
+    width: 80px;
+    position: relative;
+    top: 48px;
+    right: 40px;
+    z-index: -1;
+}
+
+
+#img1{
+    width:80px;
+    position: relative;
+    bottom: 48px;
+    left: 260px;
+    z-index: -1;
+
+}
+
+
+
+.advantage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.advantage img{
+    position: relative;
+    right: 100px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    background-color: #EDFAE3;
+    border-radius: 10px;
+    margin-top:10px ;
+}
+
+
+.advantage h1{
+    padding-top: 10px;
+    font-size:20px ; 
+    width: 380px;
+    padding-bottom: 30px;
+    position: relative;
+    right: 100px;
+    padding-bottom: -20px;
+    
+}
+.advantage p{
+    margin-top: -20px;
+    font-size: 14px;
+    width: 400px;
+    position: relative;
+    right: 100px;
+    padding-bottom: 20px;
+
+    
+}
+.advantage img , h1{
+    align-items: center;
+}
+
+.advantage div hr{
+    margin-top: 0px;
+    position: relative;
+    right: 100px;
+    margin-top: -20px;
+}
+
+.advantages{
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#ahror{
+    margin-top: 100px;
+}
+
+.destination{
+    text-align: center;
+    position: relative;
+    margin-left: 100px;
+    
+}
+
+#spech1{
+    margin-left: -180px;
+}
+
+.destination >.clock3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.destination .clock3 img{
+width: 150%;
+}
+
+
+.flex{
+    display: flex;
+    width: 200px;
+    margin: 0 0 ;
+    position: relative;
+    left: 20px;
+}
+.destination .clock3 h1{
+    font-size: 20px;
+
+}
+
+.border{
+    width: 230px;
+    height: 50px;
+    background-color: #e5e5e5;
+    position: relative;
+    left: 90px;
+    bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+
+}
+
+.border h1{
+    height: 0px;
+}
+
+#down{
+    margin-top: 15vh;
+}
+
+
+#button{
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+
+#custom{
+    position: relative;
+    left: 25% ;
+    text-align: center;
+    font-size: 40px;
+    width: 45%;
+}
+
+.customer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -100px;
+}
+
+.customer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.customer img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 100px;
+}
+
+
+#app{
+    width: 1050px;
+    margin-left: -100px;
+}
+
+
+.customer h1 , .customer p{
+    margin: 0px;
+    margin-left: -130px;
+    position: relative;
+    top: 10px;
+   
+}
+.clocks3{
+    margin-left: 5%;
+}
+.contentsp{
+    background-color: #FFFFFF;
+    width: 50%;
+    margin:  0 auto;
+    margin-left: 200px;
+    height: 320px;
+    position: relative;
+    left: 50px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+
+.contentsp hr{
+    width: 100%;
+    height: 10px;
+    background-color: #FF715B;
+}
+
+
+.customer h1{
+    font-size: 20px;
+}
+
+.customer p{
+    font-size: 16px;
+    left: -30px;
+}
+
+
+
+.contentsp h3{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 0;
+    padding: 0 0;
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+.footer{
+
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.leftf{
+    width: 400px;
+    
+}
+
+.center1{
+    width: 200px;
+    margin-top: -50px;
+}
+
+.center2{
+    width: 200px;
+    margin-bottom: -50px ;
+    padding: -50px;
+}
+.rightf button{
+    font-size: 1.5em;
+}
+.rightf{
+    width: 150px;
+    margin-top: -50px;
+    padding-top: -100px;
+}
+.leftf {
+    position: relative;
+    top: 25px;
+}
+.footer p{
+    margin-top: -50px;
+    position: relative;
+    top: 40px;
+}
+
+footer{
+    width: 90%;
+}
+
+body > hr{
+    color: rgba(245, 235, 233, 1);
+    width: 90%;
+    margin: 0 auto;
+}
+
+body > p{
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+body > p strong{
+    color: rgba(255, 113, 91, 1);
+    margin-left: 0.5em;
+}
+
+
+@media (max-width:576px) {
+    header{
+        width: 90%;
+        height: 10vh;
+    }
+    header .container .center , header .container .right{
+        display: none;
+    }
+    .container1 {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        background-image: url(./hero-banner\ 2.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+ 
+}
